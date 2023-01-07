@@ -1,0 +1,277 @@
+* {
+   margin: 0;
+   font-family: 'Work Sans';
+
+
+}
+
+.align {
+
+   text-align: left;
+   padding-top: 216;
+
+
+}
+
+.banner {
+   display: flex;
+   align-items: center;
+   display: flex;
+   margin: 0px 0px;
+   align-items: center;
+   background-attachment: fixed;
+}
+
+.img {
+   width: 100%;
+}
+
+.banner-title {
+   position: absolute;
+   width: 508px;
+   height: 228px;
+   left: 862px;
+   top: 216px;
+   font-style: bold;
+   font-weight: 700;
+   font-size: 65px;
+
+   text-align: right;
+   color: black;
+}
+
+.banner-description {
+   position: absolute;
+   width: 494px;
+   height: 78px;
+   left: 876px;
+   top: 468px;
+   font-weight: 400;
+   font-size: 16px;
+
+   text-align: right;
+   color: #444343;
+}
+
+.button1 {
+   background-color: orangered;
+   position: absolute;
+   width: 160px;
+   height: 64px;
+   left: 1210px;
+   top: 578px;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 23px;
+   text-align: center;
+   border-radius: 5px;
+   color: white;
+}
+
+/* main */
+
+container {
+   padding: 100px;
+}
+
+.main-container {
+   gap: 80px;
+   display: flex;
+   align-items: center;
+}
+
+.img-bg {
+   height: 500px;
+   width: 400px;
+}
+
+.title {
+   font-size: 35px;
+}
+
+.description {
+   font-size: 12px;
+}
+
+.sub-des {
+   font-size: 12px;
+}
+
+i {
+   color: green;
+}
+
+/* My Plans */
+.plan-header {
+   text-align: center;
+   margin-top: 50px;
+   font-weight: 800;
+   font-size: 40px;
+   color: orange;
+}
+
+.plan-continer {
+   justify-content: center;
+   gap: 100px;
+   text-align: center;
+   display: flex;
+}
+
+.plan-title {
+   font-weight: 800;
+}
+
+.plan-dis {
+   font-size: 16px;
+   color: gray;
+}
+
+.plan {
+   padding: 15px;
+}
+
+.plan:hover {
+   background: linear-gradient(45deg, red, blue);
+   border-radius: 8px;
+   box-shadow: 10px 10px 10px;
+
+}
+
+/* <!-- Linier grident --> */
+.liner-titel {
+   font-weight: 900;
+   font-size: 35px;
+}
+
+.gradient-continer {
+   position: relative;
+   display: inline-block;
+   background-image: linear-gradient(40deg, rgb(148, 145, 140) 100%, cyan), url(../images/watch.png);
+   padding: 0px 200px;
+
+}
+
+.line {
+   display: flex;
+
+
+   background-attachment: fixed;
+   padding: left 64px;
+   ;
+}
+
+.liner-title {
+   position: absolute;
+   width: 459px;
+   height: 182px;
+   padding: 69px 847px 69px 64px;
+}
+
+.liner-btn {
+   background-color: orangered;
+   position: absolute;
+   width: 160px;
+   height: 64px;
+   left: 330px;
+   top: 177px;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 23px;
+   text-align: center;
+   border-radius: 5px;
+   color: white;
+}
+
+
+
+/* <!-- blogs> */
+.blog-header {
+   text-align: center;
+   font-size: 40px;
+   font-weight: 900;
+   color: rgb(174, 0, 255);
+
+}
+
+.blog1 {
+   height: 160px;
+   width: 150px;
+}
+
+.blogs-continer {
+   justify-content: center;
+   text-align: center;
+   display: flex;
+   gap: 80px;
+}
+
+.blogs {
+   background-color: grey;
+   padding: 0px;
+   border-radius: 7px;
+   box-shadow: 15px 20px 10px;
+}
+
+.blogs:hover {
+   background: linear-gradient(50deg, rgb(0, 217, 255) 60%, cyan);
+
+}
+
+
+
+/* Footer */
+footer {
+   background-color: black;
+
+
+}
+
+.footerali {
+   display: flex;
+   justify-content: space-between;
+}
+
+.Future {
+   font-size: 35px;
+   font-weight: 900;
+}
+
+.continer {
+   gap: 250px;
+   padding: 100px 200px 100px;
+   color: white;
+   display: flex;
+
+}
+
+.footer-text {
+   font-size: 12px;
+
+}
+
+.Subscribe {
+   font-weight: 700;
+   font-size: 25px;
+}
+
+.input-coler {
+   padding: 10px;
+   background-color: black;
+   color: white;
+}
+
+.footer-btn {
+   margin-top: 12px;
+   padding: 12px;
+   border-radius: 4px;
+   font-weight: 600;
+   color: orangered;
+   border: none;
+   background-color: rgb(251, 251, 255);
+}
+
+.logo {
+   height: 20px;
+   width: 20px;
+   margin: 5px;
+}
