@@ -216,7 +216,10 @@ height: 300px;
    background: linear-gradient(50deg, rgb(25, 219, 253) 60%, rgb(255, 255, 255));
 
 }
-
+button:hover{
+   background-color: #4CAF50;
+   color: white;
+}
 
 
 /* Footer */
