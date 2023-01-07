@@ -1,9 +1,8 @@
 * {
    margin: 0;
-   font-family: 'Work Sans';
-
-
+    
 }
+<style> @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap'); </style>
 
 .align {
 
@@ -22,15 +21,15 @@
    background-attachment: fixed;
 }
 
-.img {
-   width: 100%;
+.img1 {
+   width: 112%;
 }
 
 .banner-title {
    position: absolute;
    width: 508px;
    height: 228px;
-   left: 862px;
+   left: 962px;
    top: 216px;
    font-style: bold;
    font-weight: 700;
@@ -44,7 +43,7 @@
    position: absolute;
    width: 494px;
    height: 78px;
-   left: 876px;
+   left: 976px;
    top: 468px;
    font-weight: 400;
    font-size: 16px;
@@ -58,7 +57,7 @@
    position: absolute;
    width: 160px;
    height: 64px;
-   left: 1210px;
+   left: 1310px;
    top: 578px;
    font-weight: 600;
    font-size: 20px;
@@ -107,7 +106,7 @@ i {
    margin-top: 50px;
    font-weight: 800;
    font-size: 40px;
-   color: orange;
+   color: rgb(0, 0, 0);
 }
 
 .plan-continer {
@@ -131,7 +130,7 @@ i {
 }
 
 .plan:hover {
-   background: linear-gradient(45deg, red, blue);
+   background: linear-gradient(45deg, red, rgb(242, 242, 247));
    border-radius: 8px;
    box-shadow: 10px 10px 10px;
 
@@ -144,19 +143,21 @@ i {
 }
 
 .gradient-continer {
+   width: 1140px;
+height: 300px;
    position: relative;
    display: inline-block;
-   background-image: linear-gradient(40deg, rgb(148, 145, 140) 100%, cyan), url(../images/watch.png);
-   padding: 0px 200px;
+   background:url(..//images/gradient1.png), url(..//images/watch.png)   
+   margin-left: 30px;
 
 }
 
 .line {
    display: flex;
 
-
+   padding: 0px 200px;
    background-attachment: fixed;
-   padding: left 64px;
+   
    ;
 }
 
@@ -193,10 +194,7 @@ i {
 
 }
 
-.blog1 {
-   height: 160px;
-   width: 150px;
-}
+
 
 .blogs-continer {
    justify-content: center;
@@ -206,14 +204,14 @@ i {
 }
 
 .blogs {
-   background-color: grey;
+   background-color: rgb(255, 254, 254);
    padding: 0px;
    border-radius: 7px;
    box-shadow: 15px 20px 10px;
 }
 
 .blogs:hover {
-   background: linear-gradient(50deg, rgb(0, 217, 255) 60%, cyan);
+   background: linear-gradient(50deg, rgb(25, 219, 253) 60%, rgb(255, 255, 255));
 
 }
 
@@ -235,8 +233,12 @@ footer {
    font-size: 35px;
    font-weight: 900;
 }
+.foot{
+   margin-top: 50px;
+}
 
 .continer {
+   margin-top:0px;
    gap: 250px;
    padding: 100px 200px 100px;
    color: white;
